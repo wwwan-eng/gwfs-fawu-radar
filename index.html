@@ -1,0 +1,37 @@
+
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>广外就业 · 法务岗位雷达</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--text:#18202a;--muted:#667085;--line:#e6e8ee;--blue:#2563eb;--red:#dc2626;--green:#059669}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}.wrap{max-width:1050px;margin:auto;padding:26px 17px 45px}
+header{display:flex;justify-content:space-between;gap:15px;align-items:flex-start;margin-bottom:20px}h1{font-size:25px;margin:0 0 5px}.sub{color:var(--muted);font-size:13px}.status{margin-top:8px;color:var(--green);font-size:12px}
+button{border:0;border-radius:10px;padding:10px 14px;background:var(--blue);color:#fff;font-weight:650;cursor:pointer}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:16px}.card,.job{background:#fff;border:1px solid var(--line);border-radius:15px}.card{padding:16px}.label{font-size:12px;color:var(--muted)}.num{font-size:27px;font-weight:750;margin-top:4px}
+.toolbar{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:13px}.search{flex:1;min-width:220px;padding:11px 13px;border:1px solid var(--line);border-radius:10px}.filter{background:#eef2ff;color:#3730a3}
+.jobs{display:grid;gap:11px}.job{padding:16px}.job.hot{border-left:4px solid var(--red)}.row{display:flex;justify-content:space-between;gap:12px}.title{font-size:16px;font-weight:700}.date{color:var(--muted);font-size:12px;white-space:nowrap}.tags{display:flex;gap:6px;flex-wrap:wrap;margin:9px 0}.tag{font-size:11px;padding:4px 7px;border-radius:999px;background:#f2f4f7}.tag.red{background:#fef2f2;color:#b91c1c}.desc{font-size:13px;line-height:1.65;color:#475467}.link{display:inline-block;margin-top:8px;color:var(--blue);text-decoration:none;font-size:13px}.empty{text-align:center;color:var(--muted);padding:35px;background:#fff;border:1px dashed var(--line);border-radius:15px}footer{margin-top:18px;color:var(--muted);font-size:11px;line-height:1.6}
+@media(max-width:650px){.grid{grid-template-columns:1fr 1fr}header{display:block}.row{display:block}.date{margin-top:5px}}
+</style></head><body><div class="wrap">
+<header><div><h1>广外就业 · 法务岗位雷达</h1><div class="sub">自动监控广外就业信息网“招聘简讯”，筛选法律 / 法务 / 合规相关岗位</div><div class="status" id="status">● 正在读取最新数据…</div></div></header>
+<section class="grid"><div class="card"><div class="label">监控招聘</div><div class="num" id="all">—</div></div><div class="card"><div class="label">法律相关</div><div class="num" id="legal">—</div></div><div class="card"><div class="label">最近更新</div><div class="num" id="time" style="font-size:15px">—</div></div></section>
+<div class="toolbar"><input id="q" class="search" placeholder="搜索公司、岗位、关键词……"><button class="filter" id="toggle">只看法务</button><button class="filter" onclick="load()">刷新</button></div>
+<div id="jobs" class="jobs"></div>
+<footer>数据源：广东外语外贸大学就业信息网。分类采用关键词规则，正式使用时建议人工核对原文；公众号内容与学校就业信息网并非保证完全同步。</footer>
+</div>
+<script>
+let data={jobs:[]}, only=false;
+const q=document.getElementById('q'), toggle=document.getElementById('toggle');
+toggle.onclick=()=>{only=!only;toggle.textContent=only?'查看全部':'只看法务';render()};
+q.oninput=render;
+async function load(){try{let r=await fetch('data/jobs.json?x='+Date.now());data=await r.json();document.getElementById('status').textContent='● 自动数据已加载';render()}catch(e){document.getElementById('status').textContent='● 暂无数据，请先运行自动更新任务'} }
+function render(){
+ document.getElementById('all').textContent=data.count??data.jobs.length;
+ document.getElementById('legal').textContent=data.legal_count??data.jobs.filter(x=>x.legal).length;
+ document.getElementById('time').textContent=data.updated_at?new Date(data.updated_at).toLocaleString('zh-CN',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}):'—';
+ let s=q.value.toLowerCase().trim();
+ let arr=data.jobs.filter(x=>(!only||x.legal)&&(!s||(x.title+x.excerpt+(x.hits||[]).join('')).toLowerCase().includes(s)));
+ document.getElementById('jobs').innerHTML=arr.length?arr.map(x=>`<article class="job ${x.legal?'hot':''}"><div class="row"><div class="title">${esc(x.title)}</div><div class="date">${esc(x.date||'')}</div></div><div class="tags">${(x.hits||[]).map(t=>`<span class="tag ${x.legal?'red':''}">${esc(t)}</span>`).join('')}</div><div class="desc">${esc(x.excerpt||'')}</div><a class="link" target="_blank" rel="noopener" href="${x.url}">查看原文 →</a></article>`).join(''):'<div class="empty">没有符合条件的招聘信息</div>';
+}
+function esc(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
+load();
+setInterval(load,5*60*1000);
+</script></body></html>
