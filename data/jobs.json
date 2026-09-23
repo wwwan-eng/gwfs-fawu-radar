@@ -1,12 +1,21 @@
 {
   "source": "https://career.gdufs.edu.cn/web/Index/jobs-brief-list",
   "source_name": "广东外语外贸大学就业信息网｜招聘简讯",
-  "updated_at": "2026-09-23T08:13:41.602024+00:00",
-  "count": 20,
+  "updated_at": "2026-09-23T08:42:39.887575+00:00",
+  "count": 21,
   "legal_count": 0,
   "jobs": [
     {
-      "title": "中邮消费金融有限公司2027届秋季校园招聘 中邮消费金融有限公司2027届秋季校园招聘简章一、公司介绍中邮消费金融有限公司（以下简称“中邮消费金融”）成立于2... 2026/09/23 9",
+      "title": "广发银行深圳分行2027年度秋季校园招聘 广发银行深圳分行2027年度秋季校园招聘公告 一、了解广发广发银行成立于1988年，是国内首批股份制商业银行之一，... 2026/09/23 0",
+      "date": "",
+      "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VSUXSNB",
+      "legal": false,
+      "score": 0,
+      "hits": [],
+      "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VSUXSNB"
+    },
+    {
+      "title": "中邮消费金融有限公司2027届秋季校园招聘 中邮消费金融有限公司2027届秋季校园招聘简章一、公司介绍中邮消费金融有限公司（以下简称“中邮消费金融”）成立于2... 2026/09/23 11",
       "date": "",
       "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VPUXSNB",
       "legal": false,
@@ -15,7 +24,7 @@
       "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VPUXSNB"
     },
     {
-      "title": "浙商银行广州分行2027校园招聘 浙商银行广州分行2027校园招聘启事浙商银行股份有限公司（简称“浙商银行”）是十二家全国性股份制商业银行之一，于2... 2026/09/23 13",
+      "title": "浙商银行广州分行2027校园招聘 浙商银行广州分行2027校园招聘启事浙商银行股份有限公司（简称“浙商银行”）是十二家全国性股份制商业银行之一，于2... 2026/09/23 15",
       "date": "",
       "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VNUXSNB",
       "legal": false,
@@ -42,7 +51,7 @@
       "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VHUXSNB"
     },
     {
-      "title": "中国人民保险集团2027届校园招聘 中国人民保险集团2027届校园招聘简章一、企业简介中国人民保险集团股份有限公司(简称“中国人保”)由与共和国同生共... 2026/09/22 22",
+      "title": "中国人民保险集团2027届校园招聘 中国人民保险集团2027届校园招聘简章一、企业简介中国人民保险集团股份有限公司(简称“中国人保”)由与共和国同生共... 2026/09/22 24",
       "date": "",
       "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VGUXSNB",
       "legal": false,
@@ -85,15 +94,6 @@
       "score": 0,
       "hits": [],
       "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VPUXSNA"
-    },
-    {
-      "title": "中国移动通信集团云南有限公司2027秋季校园招聘 中国移动通信集团云南有限公司2027秋季校园招聘公告网申地址：“云南移动招聘网站”（https://hire.yn... 2026/09/22 41",
-      "date": "",
-      "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VNUXSNA",
-      "legal": false,
-      "score": 0,
-      "hits": [],
-      "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VNUXSNA"
     },
     {
       "title": "“百万英才汇南粤”东莞市2026年1月公开招聘事业编制教师广州专场公告 【“百万英才汇南粤”东莞市2026年1月公开招聘事业编制教师宣讲活动通知】 东莞市教育局2...",
@@ -139,6 +139,15 @@
       "score": 0,
       "hits": [],
       "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VGUXSMM"
+    },
+    {
+      "title": "中国移动通信集团云南有限公司2027秋季校园招聘 中国移动通信集团云南有限公司2027秋季校园招聘公告网申地址：“云南移动招聘网站”（https://hire.yn... 2026/09/22 41",
+      "date": "",
+      "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VNUXSNA",
+      "legal": false,
+      "score": 0,
+      "hits": [],
+      "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VNUXSNA"
     },
     {
       "title": "中国工商银行广东省分行2027年度校园招聘 中国工商银行广东省分行2027年度校园招聘公告中国工商银行广东省分行成立于1984年1月1日, 经过40余年的稳健... 2026/09/21 74",
