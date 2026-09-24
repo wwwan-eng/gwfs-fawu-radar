@@ -1,7 +1,7 @@
 {
   "source": "https://career.gdufs.edu.cn/web/Index/jobs-brief-list",
   "source_name": "广东外语外贸大学就业信息网｜招聘简讯",
-  "updated_at": "2026-09-24T19:39:48.431797+00:00",
+  "updated_at": "2026-09-24T20:15:12.426278+00:00",
   "count": 29,
   "legal_count": 0,
   "jobs": [
@@ -12,7 +12,7 @@
       "legal": false,
       "score": 0,
       "hits": [],
-      "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VPUXSNC"
+      "excerpt": "抓取失败：HTTPSConnectionPool(host='career.gdufs.edu.cn', port=443): Max retries exceeded with url: /jobs-brief-detail?id=VPUXSNC (Caused by NewConnectionError(\"HTTPSConnection(host='career.gdufs.edu.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
       "title": "中国邮政储蓄银行浙江省分行2027年度校园招聘 中国邮政储蓄银行浙江省分行2027年度校园招聘公告 中国邮政储蓄可追溯至1919年开办的邮政储金业务，至今已有百年... 2026/09/24 19",
@@ -75,7 +75,7 @@
       "legal": false,
       "score": 0,
       "hits": [],
-      "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VSUXSNB"
+      "excerpt": "抓取失败：HTTPSConnectionPool(host='career.gdufs.edu.cn', port=443): Max retries exceeded with url: /jobs-brief-detail?id=VSUXSNB (Caused by NewConnectionError(\"HTTPSConnection(host='career.gdufs.edu.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
       "title": "中邮消费金融有限公司2027届秋季校园招聘 中邮消费金融有限公司2027届秋季校园招聘简章一、公司介绍中邮消费金融有限公司（以下简称“中邮消费金融”）成立于2... 2026/09/23 54",
@@ -138,7 +138,7 @@
       "legal": false,
       "score": 0,
       "hits": [],
-      "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VGUXSMM"
+      "excerpt": "抓取失败：HTTPSConnectionPool(host='career.gdufs.edu.cn', port=443): Max retries exceeded with url: /jobs-brief-detail?id=VGUXSMM (Caused by NewConnectionError(\"HTTPSConnection(host='career.gdufs.edu.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
       "title": "中山一麟包装设备有限公司2027届校园招聘 一麟包装技术(中山)有限公司2027届校园招聘简章一、公司简介中山一麟包装设备有限公司2010年创立于上海，201... 2026/09/23 16",
