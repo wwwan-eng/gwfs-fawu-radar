@@ -1,7 +1,7 @@
 {
   "source": "https://career.gdufs.edu.cn/web/Index/jobs-brief-list",
   "source_name": "广东外语外贸大学就业信息网｜招聘简讯",
-  "updated_at": "2026-10-09T13:48:05.995116+00:00",
+  "updated_at": "2026-10-09T14:16:11.224012+00:00",
   "count": 53,
   "legal_count": 0,
   "jobs": [
@@ -12,10 +12,10 @@
       "legal": false,
       "score": 0,
       "hits": [],
-      "excerpt": "抓取失败：HTTPSConnectionPool(host='career.gdufs.edu.cn', port=443): Max retries exceeded with url: /jobs-brief-detail?id=VGUXSNF (Caused by NewConnectionError(\"HTTPSConnection(host='career.gdufs.edu.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VGUXSNF"
     },
     {
-      "title": "安美集团2027届校园招聘 安美集团2027届校园招聘 一、企业简介安美科技股份有限公司成立于2003年，总部位于广东省东莞市松山湖园区，在... 2026/10/09 25",
+      "title": "安美集团2027届校园招聘 安美集团2027届校园招聘 一、企业简介安美科技股份有限公司成立于2003年，总部位于广东省东莞市松山湖园区，在... 2026/10/09 26",
       "date": "",
       "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VSUXSNE",
       "legal": false,
@@ -60,7 +60,7 @@
       "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VNUXSNE"
     },
     {
-      "title": "中国东方航空2027全球校园招聘 中国东方航空2027全球校园招聘正式启动 公司介绍中国东方航空集团有限公司（简称“中国东航”），总部位于上海，是中... 2026/10/08 52",
+      "title": "中国东方航空2027全球校园招聘 中国东方航空2027全球校园招聘正式启动 公司介绍中国东方航空集团有限公司（简称“中国东航”），总部位于上海，是中... 2026/10/08 53",
       "date": "",
       "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VMUXSNE",
       "legal": false,
@@ -102,7 +102,7 @@
       "legal": false,
       "score": 0,
       "hits": [],
-      "excerpt": "抓取失败：HTTPSConnectionPool(host='career.gdufs.edu.cn', port=443): Max retries exceeded with url: /jobs-brief-detail?id=VSUXSKX (Caused by NewConnectionError(\"HTTPSConnection(host='career.gdufs.edu.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+      "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VSUXSKX"
     },
     {
       "title": "广州市华壬谷物贸易有限公司2026校园招聘 广州市华壬谷物贸易有限公司Guangzhou Huaren Grain Trading C...",
