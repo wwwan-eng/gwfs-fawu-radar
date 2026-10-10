@@ -1,12 +1,12 @@
 {
   "source": "https://career.gdufs.edu.cn/web/Index/jobs-brief-list",
   "source_name": "广东外语外贸大学就业信息网｜招聘简讯",
-  "updated_at": "2026-10-10T04:47:04.112774+00:00",
+  "updated_at": "2026-10-10T05:12:57.603978+00:00",
   "count": 54,
   "legal_count": 0,
   "jobs": [
     {
-      "title": "新火少年，燃启新章——万家乐2027届新火计划校园招聘 新火少年，燃启新章 ——万家乐2027届新火计划校园招聘 一、公司介绍● 万家乐始创于 1985 年，专注改善中国... 2026/10/10 7",
+      "title": "新火少年，燃启新章——万家乐2027届新火计划校园招聘 新火少年，燃启新章 ——万家乐2027届新火计划校园招聘 一、公司介绍● 万家乐始创于 1985 年，专注改善中国... 2026/10/10 8",
       "date": "",
       "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VHUXSNF",
       "legal": false,
@@ -15,7 +15,7 @@
       "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VHUXSNF"
     },
     {
-      "title": "东莞银行2027届秋季校园招聘简章 东莞银行2027届秋季校园招聘公告银行简介东莞银行股份有限公司（以下简称本行）是经中国人民银行批准，在东莞市登记注... 2026/10/09 30",
+      "title": "东莞银行2027届秋季校园招聘简章 东莞银行2027届秋季校园招聘公告银行简介东莞银行股份有限公司（以下简称本行）是经中国人民银行批准，在东莞市登记注... 2026/10/09 31",
       "date": "",
       "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VGUXSNF",
       "legal": false,
@@ -51,7 +51,7 @@
       "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VQUXSNE"
     },
     {
-      "title": "中铁建南沙投资发展有限公司2027年“创新力”校园招聘 中铁建南沙投资发展有限公司2027年“创新力”校园招聘简章 一、公司简介中国铁建房地产集团有限公司隶属于世界500... 2026/10/09 50",
+      "title": "中铁建南沙投资发展有限公司2027年“创新力”校园招聘 中铁建南沙投资发展有限公司2027年“创新力”校园招聘简章 一、公司简介中国铁建房地产集团有限公司隶属于世界500... 2026/10/09 53",
       "date": "",
       "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VPUXSNE",
       "legal": false,
@@ -60,7 +60,7 @@
       "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VPUXSNE"
     },
     {
-      "title": "中国光大银行杭州分行2027年秋季校园招聘 中国光大银行杭州分行2027年秋季校园招聘启事一、杭州分行简介中国光大银行杭州分行成立于1999年3月,是光大银行... 2026/10/08 45",
+      "title": "中国光大银行杭州分行2027年秋季校园招聘 中国光大银行杭州分行2027年秋季校园招聘启事一、杭州分行简介中国光大银行杭州分行成立于1999年3月,是光大银行... 2026/10/08 46",
       "date": "",
       "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VNUXSNE",
       "legal": false,
@@ -69,7 +69,7 @@
       "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VNUXSNE"
     },
     {
-      "title": "中国东方航空2027全球校园招聘 中国东方航空2027全球校园招聘正式启动 公司介绍中国东方航空集团有限公司（简称“中国东航”），总部位于上海，是中... 2026/10/08 68",
+      "title": "中国东方航空2027全球校园招聘 中国东方航空2027全球校园招聘正式启动 公司介绍中国东方航空集团有限公司（简称“中国东航”），总部位于上海，是中... 2026/10/08 70",
       "date": "",
       "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VMUXSNE",
       "legal": false,
@@ -120,7 +120,7 @@
       "legal": false,
       "score": 0,
       "hits": [],
-      "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VQUXSKY"
+      "excerpt": "抓取失败：HTTPSConnectionPool(host='career.gdufs.edu.cn', port=443): Max retries exceeded with url: /jobs-brief-detail?id=VQUXSKY (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
     },
     {
       "title": "致欧家居2027届校园招聘 致欧家居2027届校园招聘简章一、公司简介致欧家居科技股份有限公司（简称“致欧家居”）于2...",
