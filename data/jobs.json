@@ -1,7 +1,7 @@
 {
   "source": "https://career.gdufs.edu.cn/web/Index/jobs-brief-list",
   "source_name": "广东外语外贸大学就业信息网｜招聘简讯",
-  "updated_at": "2026-10-10T15:44:03.701980+00:00",
+  "updated_at": "2026-10-10T16:11:47.208813+00:00",
   "count": 54,
   "legal_count": 0,
   "jobs": [
@@ -30,10 +30,10 @@
       "legal": false,
       "score": 0,
       "hits": [],
-      "excerpt": "抓取失败：HTTPSConnectionPool(host='career.gdufs.edu.cn', port=443): Max retries exceeded with url: /jobs-brief-detail?id=VSUXSNE (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+      "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VSUXSNE"
     },
     {
-      "title": "中国邮政集团有限公司广东省分公司2027年度校园招聘 中国邮政集团有限公司广东省分公司2027年度校园招聘 一、企业介绍中国邮政集团有限公司是大型国有独资企业，以邮政、... 2026/10/09 80",
+      "title": "中国邮政集团有限公司广东省分公司2027年度校园招聘 中国邮政集团有限公司广东省分公司2027年度校园招聘 一、企业介绍中国邮政集团有限公司是大型国有独资企业，以邮政、... 2026/10/09 82",
       "date": "",
       "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VRUXSNE",
       "legal": false,
@@ -42,7 +42,7 @@
       "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VRUXSNE"
     },
     {
-      "title": "中国邮政集团有限公司茂名市分公司 2027年度校园招聘 中国邮政集团有限公司茂名市分公司2027年度校园招聘 一、企业介绍 中国邮政集团有限公司是大型国有独资企业，以邮政... 2026/10/09 61",
+      "title": "中国邮政集团有限公司茂名市分公司 2027年度校园招聘 中国邮政集团有限公司茂名市分公司2027年度校园招聘 一、企业介绍 中国邮政集团有限公司是大型国有独资企业，以邮政... 2026/10/09 65",
       "date": "",
       "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VQUXSNE",
       "legal": false,
@@ -51,7 +51,7 @@
       "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VQUXSNE"
     },
     {
-      "title": "中铁建南沙投资发展有限公司2027年“创新力”校园招聘 中铁建南沙投资发展有限公司2027年“创新力”校园招聘简章 一、公司简介中国铁建房地产集团有限公司隶属于世界500... 2026/10/09 74",
+      "title": "中铁建南沙投资发展有限公司2027年“创新力”校园招聘 中铁建南沙投资发展有限公司2027年“创新力”校园招聘简章 一、公司简介中国铁建房地产集团有限公司隶属于世界500... 2026/10/09 75",
       "date": "",
       "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VPUXSNE",
       "legal": false,
@@ -69,7 +69,7 @@
       "excerpt": "抓取失败：404 Client Error: Not Found for url: https://career.gdufs.edu.cn/jobs-brief-detail?id=VNUXSNE"
     },
     {
-      "title": "中国东方航空2027全球校园招聘 中国东方航空2027全球校园招聘正式启动 公司介绍中国东方航空集团有限公司（简称“中国东航”），总部位于上海，是中... 2026/10/08 87",
+      "title": "中国东方航空2027全球校园招聘 中国东方航空2027全球校园招聘正式启动 公司介绍中国东方航空集团有限公司（简称“中国东航”），总部位于上海，是中... 2026/10/08 89",
       "date": "",
       "url": "https://career.gdufs.edu.cn/jobs-brief-detail?id=VMUXSNE",
       "legal": false,
